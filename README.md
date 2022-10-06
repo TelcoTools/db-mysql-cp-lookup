@@ -5,4 +5,8 @@ The original service, getCP, was all MariaDB backed, so I'm sharing the scripts 
 
 None of the Ofcom data that this database needs is included in this repo, it is downloaded when you run the build scripts, please check their license terms before running the script to make sure you accept them, they're a Government body, so the data should be under the Open Government License or Crown Copyright, but, check. #NotALawyer.
 
+# N.B.
+
 **This script assumes that you have installed MySQL/MariaDB and it's all setup and ready, and that you have access to a user account that can CREATE DATABASEs and TABLES, etc.**
+
+**Ensure that you change the username in the `run.sh` file to reflect the MySQL/MariaDB user that you're using.**
